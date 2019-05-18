@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你要别人帮你做什么"
+        android:textColor="#44BDED"
+        android:textSize="18sp"
+        />
+
+    <Spinner
+        android:id="@+id/spin_one"
+        android:layout_width="100dp"
+        android:layout_height="64dp"
+        android:entries="@array/data"
+
+        android:spinnerMode="dialog" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="商店/食堂/快递地点"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:id="@+id/wherething"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="送货目的地"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:id="@+id/whereyou"  />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="备注 个人信息和具体事项"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:id="@+id/tip"  />
+
+    <Button
+        android:layout_margin="50dp"
+        android:id="@+id/btnOne"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#6495ED"
+        android:onClick="click"
+        android:text="确定"/>
+
+
+
+
+
+
+
+</LinearLayout>

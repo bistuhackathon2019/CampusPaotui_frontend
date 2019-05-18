@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <Button
+        android:layout_margin="50dp"
+        android:id="@+id/btnOne"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/woyaoxuexi"
+        android:textColor="#6495ED"
+        android:onClick="click"
+       />
+
+
+    <Button
+        android:id="@+id/btnTwo"
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="center_horizontal"
+
+        android:background="@drawable/zhaorenxuexi"
+        android:onClick="click"
+        android:layout_margin="50dp"
+        android:textColor="#6495ED"
+
+        />
+
+
+
+
+</LinearLayout>
